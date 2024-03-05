@@ -111,6 +111,26 @@ h2 {
     margin-bottom: 10px;
 }
 
+.project {
+    width: 300px; /* Adjust width as needed */
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.project-icon {
+    padding: 20px;
+    color: #333;
+    font-size: 18px;
+}
+
+.project-details {
+    padding: 20px;
+}
+
 .project a {
     color: #fff;
     background-color: #333;
@@ -122,6 +142,11 @@ h2 {
 
 .project a:hover {
     background-color: #555;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 footer {
